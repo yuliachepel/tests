@@ -89,7 +89,7 @@ test.describe("Add Purchase in Card", () => {
               await mainPage.visitCacaocultura();
     });
 
-    test.only("Add Purchase from catalog", async ({ page }) => {
+    test("Add Purchase from catalog", async ({ page }) => {
         await mainPage.clickButtonBuy1();
         await expect(mainPage.buttonCard).toBeVisible();
         await expect(mainPage.buttonCard).toHaveClass("cart_items_count");

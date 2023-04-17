@@ -47,5 +47,5 @@ npx playwright test --browser=firefox --headed
 ```
 - Запуск конкретного файла с тестами:
 ```
-npx playwright test tests/example.spec.ts
+npx playwright test test/login.spec.ts
 ```
